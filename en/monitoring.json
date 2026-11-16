@@ -29,5 +29,17 @@
   "anomalyCpu": "CPU",
   "anomalyLoad": "Load (5 min)",
   "anomalyRam": "RAM",
-  "anomalyNet": "Network in"
+  "anomalyNet": "Network in",
+  "secFixApply": "Apply this fix",
+  "secFixTitle": "Apply fix to {{service}}",
+  "secFixExplain": "{{service}} restarts on the image that fixes {{fix}}. The sites below stop answering while it restarts. If it does not come back healthy, the previous image is restored and the runtime stays affected.",
+  "secFixNoSites": "No site is registered on this server.",
+  "secFixTypePrompt": "Type {{phrase}} to confirm",
+  "secFixCancel": "Cancel",
+  "secFixClose": "Close",
+  "secFixConfirm": "Apply fix",
+  "secFixVerdictFixed": "The server reports {{service}} as patched.",
+  "secFixVerdictOther": "The server still reports {{service}} as {{verdict}}.",
+  "secFixRecheckFailed": "The result could not be re-checked, so the state of {{service}} is unknown.",
+  "secFixFailed": "The fix was not applied: {{error}}"
 }
