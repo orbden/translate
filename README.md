@@ -1,6 +1,6 @@
 # OrbDen — Translations
 
-Community translations for [OrbDen](https://github.com/local-control-panel/website-control-panel).
+Community translations for [OrbDen](https://github.com/orbden/website-control-panel).
 
 ## How it works
 
