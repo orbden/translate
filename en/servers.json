@@ -82,5 +82,10 @@
   "resourceOpsConfirm": "Recover {{operation}} for {{subject}} (request {{requestId}})? Confirm that the site is offline and that every client of the previous database is stopped. The saved state is restored and the interrupted run's partial changes are removed.",
   "resourceOpsConfirmDatabase": " The database in container {{container}} is restored from its snapshot as well.",
   "resourceOpsRecovered": "Recovery finished for {{subject}}.",
-  "resourceOpsRecoveryUnknown": "Recovery did not finish; the outcome is unknown. Check the status before trying again."
+  "resourceOpsRecoveryUnknown": "Recovery did not finish; the outcome is unknown. Check the status before trying again.",
+  "incompleteStackRecoverHint": "A deploy of the stack stopped part-way. The files on the server may be a mix of the old and the new deploy.",
+  "incompleteStackRecover": "Roll back the interrupted deploy",
+  "incompleteStackRecoverConfirm": "Roll back the interrupted stack deploy {{requestId}}?\n\nThe previous stack files are restored and the previous containers are started again. The deploy is not repeated and no data volumes are touched. Sites may be briefly unavailable.",
+  "incompleteStackRecoverDone": "The interrupted deploy was rolled back.",
+  "incompleteStackRecoverNothing": "Nothing was left to roll back."
 }
