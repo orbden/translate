@@ -93,5 +93,15 @@
   "incompleteBackupDiscardConfirm": "Discard the unfinished backup {{requestId}}?\n\nOnly the unfinished file of this one backup is deleted and its record is closed. No backup is started and finished backups are not touched.",
   "incompleteBackupDiscardDone_one": "The unfinished backup was discarded ({{count}} file removed).",
   "incompleteBackupDiscardDone_other": "The unfinished backup was discarded ({{count}} files removed).",
-  "incompleteBackupDiscardNothing": "The record was no longer open; nothing was removed."
+  "incompleteBackupDiscardNothing": "The record was no longer open; nothing was removed.",
+  "incompleteBackupConfigHint": "A change of the backup configuration stopped part-way. The backup files and the crontab on the server may be a mix of the old and the new.",
+  "incompleteBackupConfig": "Roll back the interrupted configuration",
+  "incompleteBackupConfigConfirm": "Roll back the interrupted backup configuration {{requestId}}?\n\nThe previous backup files and the previous crontab are restored from what was saved before the change started. The change is not repeated, and scheduled backups run with the old settings again.",
+  "incompleteBackupConfigDone_one": "The backup configuration was rolled back ({{count}} file restored).",
+  "incompleteBackupConfigDone_other": "The backup configuration was rolled back ({{count}} files restored).",
+  "incompleteBackupConfigNothing": "The record was no longer open; nothing was changed.",
+  "incompleteBackupCloseHint": "A backup action stopped before it finished. There is nothing to remove; closing the record does not confirm whether the action ran.",
+  "incompleteBackupClose": "Close the interrupted record",
+  "incompleteBackupCloseConfirm": "Close the interrupted backup record {{requestId}}?\n\nNothing is deleted and no backup is started. The record is only closed, and it does not say whether the action ran.",
+  "incompleteBackupCloseDone": "The interrupted record was closed. Whether the action ran was not confirmed."
 }
