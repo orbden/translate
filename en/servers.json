@@ -87,5 +87,11 @@
   "incompleteStackRecover": "Roll back the interrupted deploy",
   "incompleteStackRecoverConfirm": "Roll back the interrupted stack deploy {{requestId}}?\n\nThe previous stack files are restored and the previous containers are started again. The deploy is not repeated and no data volumes are touched. Sites may be briefly unavailable.",
   "incompleteStackRecoverDone": "The interrupted deploy was rolled back.",
-  "incompleteStackRecoverNothing": "Nothing was left to roll back."
+  "incompleteStackRecoverNothing": "Nothing was left to roll back.",
+  "incompleteBackupDiscardHint": "A backup stopped part-way. Its unfinished file is still on the server and its record is still open.",
+  "incompleteBackupDiscard": "Discard the unfinished backup",
+  "incompleteBackupDiscardConfirm": "Discard the unfinished backup {{requestId}}?\n\nOnly the unfinished file of this one backup is deleted and its record is closed. No backup is started and finished backups are not touched.",
+  "incompleteBackupDiscardDone_one": "The unfinished backup was discarded ({{count}} file removed).",
+  "incompleteBackupDiscardDone_other": "The unfinished backup was discarded ({{count}} files removed).",
+  "incompleteBackupDiscardNothing": "The record was no longer open; nothing was removed."
 }
