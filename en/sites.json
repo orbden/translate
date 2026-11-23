@@ -1084,5 +1084,12 @@
   "releasePruneReason_active": "active",
   "releasePruneReason_newest": "newest",
   "releasePruneReason_rollback": "rollback target",
-  "releasePruneIgnored": "{{count}} other item(s) in the releases folder are not release directories and were left alone."
+  "releasePruneIgnored": "{{count}} other item(s) in the releases folder are not release directories and were left alone.",
+  "auditNaTitle": "Node application health",
+  "auditNaDesc": "Reads, read-only, the state of the Node application the engine runs for this domain: its container, health check, restarts and whether the domain's route reaches it. Nothing is started, restarted or changed.",
+  "auditNaContainer": "Application container",
+  "auditNaHealth": "Health check",
+  "auditNaRestarts": "Restarts",
+  "auditNaRoute": "Ingress route",
+  "auditNaImage": "Node image"
 }
