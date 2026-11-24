@@ -520,7 +520,6 @@
   "joomlaAdminSuffix": "(admin)",
   "capMissingTool": "{{tool}} is not installed for this site.",
   "capMissingToolUnnamed": "A required tool is not installed for this site.",
-  "capNoDbAccess": "No database access for this check.",
   "capMultisiteUnsupported": "Multisite is detected, but this action is not supported on multisite yet.",
   "capMissingEngineOpNamed": "The server operation {{tool}} is not available yet, so one-time admin login cannot be offered.",
   "capMissingEngineOp": "The server operation is not available yet, so one-time admin login cannot be offered.",
