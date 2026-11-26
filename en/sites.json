@@ -1092,5 +1092,16 @@
   "auditNaHealth": "Health check",
   "auditNaRestarts": "Restarts",
   "auditNaRoute": "Ingress route",
-  "auditNaImage": "Node image"
+  "auditNaImage": "Node image",
+  "installSourceLabel": "Source",
+  "installSourceFresh": "Fresh project",
+  "installSourceGit": "Git repository",
+  "installRepoLabel": "Repository URL",
+  "installRepoNote": "Public HTTPS repositories only. Migrations are not run.",
+  "installRepoErrScheme": "The repository URL must start with https:// and include a path.",
+  "installRepoErrChars": "The repository URL contains characters that are not allowed (spaces, \\, ?, # or @).",
+  "installRepoErrLength": "The repository URL is longer than 2048 characters.",
+  "installRepoErrHost": "The repository host must be a public DNS name, not an IP address, a port or a local name.",
+  "installSiteUrl": "Site URL",
+  "installOpenSite": "Open site"
 }
