@@ -1103,5 +1103,6 @@
   "installRepoErrLength": "The repository URL is longer than 2048 characters.",
   "installRepoErrHost": "The repository host must be a public DNS name, not an IP address, a port or a local name.",
   "installSiteUrl": "Site URL",
-  "installOpenSite": "Open site"
+  "installOpenSite": "Open site",
+  "installSiteMustBeEmpty": "The site must be empty."
 }
