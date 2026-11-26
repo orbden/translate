@@ -1105,5 +1105,7 @@
   "installSiteUrl": "Site URL",
   "installOpenSite": "Open site",
   "installSiteMustBeEmpty": "The site must be empty.",
-  "installJoomlaArchive": "Joomla's full package is downloaded from update.joomla.org and installed only if it matches the SHA-256 pinned in the panel's catalog. Joomla needs PHP 8.3 or newer."
+  "installJoomlaArchive": "Joomla's full package is downloaded from update.joomla.org and installed only if it matches the SHA-256 pinned in the panel's catalog. Joomla needs PHP 8.3 or newer.",
+  "installNextcloudDataNote": "Nextcloud keeps its files in {{path}}, beside the site and outside its document root. Deleting the site does not delete this directory.",
+  "deleteSiteKeepsDataDir": "A Nextcloud data directory beside the site ({{path}}) is not deleted; remove it by hand when its files are no longer needed."
 }
